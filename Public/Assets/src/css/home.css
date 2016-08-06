@@ -1,0 +1,37 @@
+/*========== Sobre ==========*/
+
+.sobre {
+    margin: 1% 0;
+    height: 560px;
+    background-image: url("/Public/Assets/dist/css/img/background-sobre/background-sobre-1.jpg");
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.sobre article {
+    padding: 2%;
+    float: right;
+    background-color: rgba(245,245,245, .6);
+    height: 100%;
+    box-shadow: -38px 0px 62px 0px rgba(0,0,0,.25);
+}
+.sobre article h1 {
+    text-align: right;
+}
+.sobre article p {
+    max-height: 100%;
+}
+
+/*========== Serviços ==========*/
+
+.servicos article {
+    margin: 1% 10%;
+    background-color: red;
+    height: 500px;
+}
+
+@media screen and (min-width: 1000px) {
+    .servicos article {
+        margin: 1% 4%;
+    }
+}

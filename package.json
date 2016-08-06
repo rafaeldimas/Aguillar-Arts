@@ -1,0 +1,21 @@
+{
+  "name": "aguillararts",
+  "version": "1.0.0",
+  "description": "Site da agência Aguillar Arts",
+  "main": "Gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-image": "^2.4.1",
+    "gulp-strip-css-comments": "^1.2.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "^4.3.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafael Dimas - Compcom",
+  "license": "ISC"
+}
