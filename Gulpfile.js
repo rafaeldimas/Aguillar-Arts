@@ -8,24 +8,29 @@ var filesCSS = [
 "./Public/Assets/src/css/*.css",
 "!./Public/Assets/src/css/inc/font-awesome"
 ];
+var filesIMG = [
+"/Public/Assets/src/css/img/*"
+]
 
 // Núcleo do Gulp
-var gulp = require('gulp');
+const gulp = require('gulp');
 
 // Transforma o javascript em formato ilegível para humanos
-var uglify = require("gulp-uglify");
+const uglify = require("gulp-uglify");
 
 // Agrupa todos os arquivos em um
-var concat = require("gulp-concat");
+const concat = require("gulp-concat");
 
 // Verifica alterações em tempo real, caso haja, compacta novamente todo o projeto
-var watch = require('gulp-watch');
+const watch = require('gulp-watch');
 
 // Minifica o CSS
-var cssmin = require("gulp-cssmin");
+const cssmin = require("gulp-cssmin");
 
 // Remove comentários CSS
-var stripCssComments = require('gulp-strip-css-comments');
+const stripCssComments = require('gulp-strip-css-comments');
+
+const image = require('gulp-image');
 
 // Processo que removerá comentários CSS e minificará.
 gulp.task('minify-css', function(){
@@ -42,11 +47,20 @@ gulp.task('minify-js', function () {
   .pipe(gulp.dest('./Public/Assets/dist/js/'));          // pasta de destino do arquivo(s)
 });
 
+// Tarefa de minificação das Imagens
+gulp.task('minify-image', function () {
+  gulp.src(filesIMG)
+    .pipe(image())
+    .pipe(gulp.dest('./Public/Assets/dist/css/img/'));
+});
+
+
 // Tarefa padrão quando executado o comando GULP
-gulp.task('default',['minify-js','minify-css']);
+gulp.task('default',['minify-js','minify-css','minify-image']);
 
 // Tarefa de monitoração caso algum arquivo seja modificado, deve ser executado e deixado aberto, comando "gulp watch".
 gulp.task('watch', function() {
   gulp.watch(filesJS, ['minify-js']);
   gulp.watch(filesCSS, ['minify-css']);
+  gulp.watch(filesIMG, ['minify-image']);
 });
