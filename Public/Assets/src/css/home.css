@@ -24,7 +24,7 @@
 
 /*========== Serviços ==========*/
 
-.servicos article {
+.servicos div article {
     margin: 1% 10%;
     background-color: #DCDCDC;
     height: 250px;
@@ -33,7 +33,7 @@
 }
 
 @media screen and (min-width: 1000px) {
-    .servicos article {
+    .servicos div article {
         margin: 1% 4%;
     }
 }
