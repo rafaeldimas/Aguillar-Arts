@@ -1,9 +1,48 @@
-body {
-    background-color: #FCFAFB;
-    overflow-x: hidden;
+body
+{
     font-family: 'Lato', sans-serif;
     font-size: 10px;
-}
-h1 { color: rgb(80,0,80); font-size: 3.5rem; }
 
-p { color: rgb(122,12,102); font-size: 2rem; }
+    overflow-x: hidden;
+
+    background-color: #fcfafb;
+}
+h1
+{
+    font-size: 3.5rem;
+
+    color: rgb(80,0,80);
+}
+
+h2
+{
+    font-size: 2.5rem;
+
+    color: rgb(100, 0, 100);
+}
+
+p
+{
+    font-size: 2rem;
+
+    color: rgb(122,12,102);
+}
+
+i
+{
+    margin-right: 1%;
+}
+a
+{
+    text-decoration: none;
+
+    color: rgb(122,12,102);
+}
+a:hover,
+a:visited,
+a:focus
+{
+    text-decoration: underline;
+
+    color: rgb(172,62,152);
+}

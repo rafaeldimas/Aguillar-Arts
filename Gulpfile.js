@@ -10,8 +10,8 @@ var filesCSS = [
 ];
 var filesIMG = [
 "./Public/Assets/src/css/img/*",
-"./Public/Assets/src/css/img/background-sobre/*",
-]
+"./Public/Assets/src/css/img/background-sobre/*"
+];
 
 // Núcleo do Gulp
 const gulp = require('gulp');
