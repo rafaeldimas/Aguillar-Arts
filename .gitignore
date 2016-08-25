@@ -59,3 +59,6 @@ composer.lock
 ### Netbeans ###
 Release.key
 /nbproject/
+
+### Visual Code ###
+.vscode/

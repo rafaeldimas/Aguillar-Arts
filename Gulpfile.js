@@ -5,12 +5,11 @@ var filesJS = [
 ];
 
 var filesCSS = [
-"./Public/Assets/src/css/*.css",
-"!./Public/Assets/src/css/inc/font-awesome"
+"!./Public/Assets/src/css/inc/font-awesome/*",
+"./Public/Assets/src/css/**/*.css"
 ];
 var filesIMG = [
-"./Public/Assets/src/css/img/*",
-"./Public/Assets/src/css/img/background-sobre/*"
+"./Public/Assets/src/css/img/**/*"
 ];
 
 // Núcleo do Gulp
@@ -35,10 +34,10 @@ const image = require('gulp-image');
 
 // Processo que removerá comentários CSS e minificará.
 gulp.task('minify-css', function(){
-  return gulp.src(filesCSS)
-  .pipe(stripCssComments({all: true}))
-  .pipe(cssmin())
-  .pipe(gulp.dest('./Public/Assets/dist/css/'));
+	return gulp.src(filesCSS)
+	.pipe(stripCssComments({all: true}))
+	.pipe(cssmin())
+	.pipe(gulp.dest('./Public/Assets/dist/css/'));
 });
 
 // Tarefa de minificação do Javascript
@@ -50,18 +49,18 @@ gulp.task('minify-js', function () {
 
 // Tarefa de minificação das Imagens
 gulp.task('minify-image', function () {
-  gulp.src(filesIMG)
-    .pipe(image())
-    .pipe(gulp.dest('./Public/Assets/dist/css/img/'));
+	gulp.src(filesIMG)
+	.pipe(image())
+	.pipe(gulp.dest('./Public/Assets/dist/css/img/'));
 });
 
-
-// Tarefa padrão quando executado o comando GULP
-gulp.task('default',['minify-js','minify-css','minify-image']);
 
 // Tarefa de monitoração caso algum arquivo seja modificado, deve ser executado e deixado aberto, comando "gulp watch".
 gulp.task('watch', function() {
-  gulp.watch(filesJS, ['minify-js']);
-  gulp.watch(filesCSS, ['minify-css']);
-  gulp.watch(filesIMG, ['minify-image']);
+	gulp.watch(filesJS, ['minify-js']);
+	gulp.watch(filesCSS, ['minify-css']);
+	gulp.watch(filesIMG, ['minify-image']);
 });
+
+// Tarefa padrão quando executado o comando GULP
+gulp.task('default',['minify-js','minify-css','minify-image','watch']);

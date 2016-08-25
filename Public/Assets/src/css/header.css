@@ -1,7 +1,7 @@
 header nav
 {
     position: fixed !important;
-    z-index: 2;
+    z-index: 999;
     top: 0;
     left: 0;
 
@@ -52,6 +52,9 @@ header nav ul li a:hover
 header nav ul li a:not(.not)
 {
     padding: 15px;
+}
+.not:hover {
+    background-color: #f5f5f5;
 }
 header nav ul li a img
 {

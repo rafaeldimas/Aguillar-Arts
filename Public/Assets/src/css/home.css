@@ -3,13 +3,14 @@
 .sobre
 {
     height: 100%;
-    margin: 1% 0;
+    margin: 2% 0;
 
-    background-image: url('/Public/Assets/dist/css/img/background-sobre/background-sobre-1.jpg');
+    background-image: url('/Public/Assets/dist/css/img/background/sobre.jpg');
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 100% 100%;
+    background-size: cover;
 }
+
 .sobre article
 {
     float: right;
@@ -20,10 +21,12 @@
     background-color: rgba(245,245,245, .6);
     box-shadow: -38px 0 62px 0 rgba(0,0,0,.25);
 }
+
 .sobre article h1
 {
     text-align: right;
 }
+
 .sobre article p
 {
     max-height: 100%;
@@ -33,84 +36,101 @@
 
 .servicos
 {
-    padding: 0 5%;
-}
-
-.servicos .row
-{
     width: 100vw;
+
+    background-image: url('/Public/Assets/dist/css/img/background/servicos.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: -38px 0 62px 0 rgba(0,0,0,.25);
 }
 
-.servicos div article
+.menu
 {
-    height: 250px;
-    margin: 1% 40px;
+    position: relative;
+    z-index: 2;
 
-    border: 2px solid #a0a;
-    border-radius: 5px;
-    background-color: #dcdcdc;
-}
-
-@media screen and (min-width: 1000px)
-{
-    .servicos div article:first-child
-    {
-        margin-left: 4.166666665%;
-    }
-}
-
-.left
-{
-    display: block;
     float: left;
-
-    width: 40%;
-    height: 100%;
-    margin-left: -15px;
-    padding: 10px;
-
-    background: #fcfafb;
-}
-.icons
-{
-    overflow: hidden;
-
-    width: 110px;
-    max-width: 100%;
-    height: 110px;
-    margin: 60px auto;
-    padding: 5px;
-
-    text-align: center;
-
-    border: 2px solid #808;
-    border-radius: 5px;
 }
 
-.icons i
+.menu ul
 {
-    font-size: 5rem;
-
-    display: inline-block;
-
     margin: 0;
     padding: 0;
 
-    color: #808;
+    list-style: none;
 }
-.right
+
+.disable
 {
-    min-width: 100%;
-    height: 100%;
-    max-height: 99.9%;
-    margin-top: -20px;
-    margin-right: -15px;
+    overflow: hidden;
+
+    width: 114px;
+
+    cursor: pointer;
+    transition: all 1s;
+
+    box-shadow: 15px 0 30px 0 rgba(0,0,0,.25);
+}
+
+.active
+{
+    box-shadow: 15px 15px 30px 0 rgba(0,0,0,.25);
+}
+
+.texto
+{
+    position: absolute;
+    left: -100vw;
+
+    float: right;
+
+    width: 100vw;
+    margin: 0;
+    padding: 1%;
+
+    text-align: justify;
+
+    background-color: rgba(245,245,245, .5);
+}
+
+
+.texto p,
+.texto h2
+{
+    float: right;
+    clear: both;
+
+    width: 700px;
 
     text-align: center;
-
-    background-color: #fff;
+    color: #fff;
 }
 
+.producao
+{
+    background-color: rgba(73, 183, 36, .7);
+}
+
+.servicos .email {
+    background-color: rgba(248, 129, 0, .7);
+}
+
+.midia {
+    background-color: rgba(242, 64, 88, .7);
+}
+
+.criacao{
+    background-color: rgba(0, 182, 157, .7);
+}
+
+.visual{
+    background-color: rgba(10, 148, 174, .7);
+}
+
+.offiline{
+    background-color: rgba(161, 161, 161, .7);
+}
 /*========== Blog ==========*/
 
 .blog
@@ -141,18 +161,32 @@
     border-radius: 5px;
 }
 
+.contato article p
+{
+    font-size: 1.8rem;
+}
+
+.contato article a
+{
+    font-size: 1.7rem;
+}
+
 @media screen and (min-width: 1000px)
 {
-    .telefone
+    .contato .telefone
     {
         margin-left: 4.166666665%;
     }
 }
-.telefone p
+
+.contato .email a
 {
-    font-size: 1.8rem;
-}
-.telefone a
-{
-    font-size: 1.7rem;
+    font-size: 3rem;
+
+    margin: 0 calc(50% - 50px);
+    padding: 10px 20px;
+
+    color: #f5f5f5;
+    border-radius: 5px;
+    background-color: #744bb1;
 }

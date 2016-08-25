@@ -11,11 +11,11 @@
             return $this->view->render($response, 'home.phtml', [
                     'assets' => [
                         'css' => [
-                            'bootstrap.min.css',
-                            'bootstrap-theme.min.css',
-                            'owl.carousel.css',
-                            'owl.theme.css',
-                            'owl.transitions.css',
+                            'inc/bootstrap.min.css',
+                            'inc/bootstrap-theme.min.css',
+                            'inc/owl.carousel.css',
+                            'inc/owl.theme.css',
+                            'inc/owl.transitions.css',
                             'reset.css',
                             'header.css',
                             'home.css'
@@ -23,9 +23,11 @@
                         'js' => [
                             'jquery.min.js',
                             'owl.carousel.min.js',
-                            'owl.js'
+                            'owl.js',
+                            'home.js'
                         ]
-                    ]
+                    ],
+                    'title' => 'Pagina Inicial'
                 ]);
         }
     }
