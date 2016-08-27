@@ -18,13 +18,15 @@
                             'inc/owl.transitions.css',
                             'reset.css',
                             'header.css',
-                            'home.css'
+                            'home.css',
+                            'footer.css'
                         ],
                         'js' => [
                             'jquery.min.js',
                             'owl.carousel.min.js',
                             'owl.js',
-                            'home.js'
+                            'home.js',
+                            'footer.js'
                         ]
                     ],
                     'title' => 'Pagina Inicial'

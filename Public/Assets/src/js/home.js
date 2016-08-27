@@ -7,7 +7,7 @@ $(".menu ul li").click(function(e) {
 		/**
 		 * Reseta as configurações
 		 */
-		$('.menu ul li').removeClass('active')
+		$('.menu ul li').removeClass('ativo')
 		$('.menu ul li').animate({
 			width: '114px'},
 			'fast')
@@ -20,7 +20,7 @@ $(".menu ul li").click(function(e) {
 		$(e.currentTarget).animate({
 			width: '400px'},
 			'slow')
-			.removeClass("disable").addClass("active");
+			.removeClass("disable").addClass("ativo");
 
 		/**
 		 * Animação do texto
@@ -35,7 +35,7 @@ $(".menu ul li").click(function(e) {
 		$(e.currentTarget).animate({
 			width: '114px'},
 			'fast')
-			.removeClass("active").addClass("disable");
+			.removeClass("ativo").addClass("disable");
 
 		$('.servicos .' + $(this).context.id).animate({
 			left: '-100vw',
