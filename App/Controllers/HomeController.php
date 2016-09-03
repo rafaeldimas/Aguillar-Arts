@@ -26,7 +26,8 @@
                             'owl.carousel.min.js',
                             'owl.js',
                             'home.js',
-                            'footer.js'
+                            'footer.js',
+                            'header.js'
                         ]
                     ],
                     'title' => 'Pagina Inicial'

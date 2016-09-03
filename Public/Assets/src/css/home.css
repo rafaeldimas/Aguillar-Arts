@@ -75,8 +75,9 @@
 
 .ativo
 {
-    box-shadow: 15px 15px 30px 0 rgba(0,0,0,.25);
     width: 400px;
+
+    box-shadow: 15px 15px 30px 0 rgba(0,0,0,.25);
 }
 
 .texto
@@ -105,33 +106,41 @@
     width: 700px;
 
     text-align: center;
+
     color: #fff;
 }
 
 .producao
 {
-    background-color: rgba(73, 183, 36, .7);
     left: 0;
+
     height: 576px;
+
+    background-color: rgba(73, 183, 36, .7);
 }
 
-.servicos .email {
+.servicos .email
+{
     background-color: rgba(248, 129, 0, .7);
 }
 
-.midia {
+.midia
+{
     background-color: rgba(242, 64, 88, .7);
 }
 
-.criacao{
+.criacao
+{
     background-color: rgba(0, 182, 157, .7);
 }
 
-.visual{
+.visual
+{
     background-color: rgba(10, 148, 174, .7);
 }
 
-.offiline{
+.offiline
+{
     background-color: rgba(161, 161, 161, .7);
 }
 /*========== Blog ==========*/
