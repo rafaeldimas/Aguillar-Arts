@@ -26,12 +26,13 @@
     width: 100px;
     height: 100px;
 
+	margin-left: 5px;
+
     border: 2px solid #f6f6f6;
     border-radius: 50%;
     background-color: #222;
-    background-image: url('/Public/Assets/dist/css/img/logo/logo-vertical.png');
+    background-image: url('/Public/Assets/dist/css/img/sobre/sobre.jpg');
     background-repeat: no-repeat;
-    background-position: center center;
     background-size: cover;
 }
 .footer .foto h1 {
@@ -40,6 +41,7 @@
 
 .footer .minibiografia {
 	width: 80%;
+	padding: 0 5px;
 }
 
 .footer h2{

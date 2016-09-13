@@ -30,7 +30,8 @@
                             'header.js'
                         ]
                     ],
-                    'title' => 'Pagina Inicial'
+                    'title' => 'Pagina Inicial',
+                    'description' => 'Aguillar Arts, a melhor solução para divulgação de Ribeirão Preto, com os melhores preços aliado com a melhor qualidade.'
                 ]);
         }
     }

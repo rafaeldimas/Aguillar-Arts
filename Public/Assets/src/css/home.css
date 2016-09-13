@@ -34,6 +34,10 @@
 
 /*========== Serviços ==========*/
 
+.servicos-mobile {
+    display: none;
+}
+
 .servicos
 {
     width: 100vw;
@@ -96,18 +100,22 @@
     background-color: rgba(245,245,245, .5);
 }
 
-
 .texto p,
 .texto h2
 {
     float: right;
     clear: both;
-
-    width: 700px;
+    margin: 0 30px;
+    width: 500px;
 
     text-align: center;
+}
 
-    color: #fff;
+.texto h2 {
+    margin-top: 50px;
+}
+.texto p {
+    margin-bottom: 100px;
 }
 
 .producao
@@ -116,32 +124,97 @@
 
     height: 576px;
 
-    background-color: rgba(73, 183, 36, .7);
 }
 
-.servicos .email
+/*========== Serviços mobile ==========*/
+
+@media screen and (max-width: 960px)
 {
-    background-color: rgba(248, 129, 0, .7);
+    .servicos-mobile {
+        margin: 30px auto;
+        display: block;
+    }
+
+    .servicos-desktop {
+        display: none;
+    }
+
+    .background{
+        content: '';
+        margin: auto;
+        padding: 1%;
+        width: 100vw;
+        background-color: rgba(245,245,245,1);
+    }
+
+    .servicos-mobile .row
+    {
+        width: 100vw;
+    }
+
+    .servicos-mobile div article
+    {
+        height: auto;
+        margin: 2% 40px;
+        padding: 0;
+        width: auto;
+
+        border-radius: 5px;
+    }
+
+    .icon {
+        border-radius: 3px 3px 0 0;
+        width: 100%;
+        max-width: 100%;
+    }
+    .icon img {
+        border-radius: 3px 3px 0 0;
+        width: 100%;
+    }
+
+    .producao{
+        border: 2px solid #49B724;
+        background-color: #8DC63F;
+    }
+    .emailmark{
+        border: 2px solid #F88100;
+        background-color: #FFB047;
+    }
+    .midia{
+        border: 2px solid #F24058;
+        background-color: #F7687A;
+    }
+    .criacao{
+        border: 2px solid #00B69D;
+        background-color: #00CFB5;
+    }
+    .visual{
+        border: 2px solid #0A94AE;
+        background-color: #16C4E6;
+    }
+    .offiline{
+        border: 2px solid #A1A1A1;
+        background-color: #ADBDBC;
+    }
+    .texto-mobile {
+        width: 100%;
+        background-color: transparent;
+        padding: 10px;
+        text-align: center;
+
+        font-size: 2rem;
+    }
+    .texto-mobile p {
+        color: #fff;
+    }
 }
 
-.midia
-{
-    background-color: rgba(242, 64, 88, .7);
-}
-
-.criacao
-{
-    background-color: rgba(0, 182, 157, .7);
-}
-
-.visual
-{
-    background-color: rgba(10, 148, 174, .7);
-}
-
-.offiline
-{
-    background-color: rgba(161, 161, 161, .7);
+@media screen and (min-width: 640px) and (max-width: 960px) {
+    .servicos-mobile div article
+    {
+        margin: 2% 100px;
+        width: 70%;
+    }    
 }
 /*========== Blog ==========*/
 
@@ -165,7 +238,7 @@
 
 .contato article
 {
-    height: 250px;
+    height: 300px;
     margin-top: 1%;
     margin-bottom: 1%;
 
@@ -181,6 +254,14 @@
 .contato article a
 {
     font-size: 1.7rem;
+}
+
+@media screen and (min-width: 640px) and (max-width: 1000px) {
+    .contato article
+    {
+        margin: 1% 100px;
+        width: 70%;
+    }
 }
 
 @media screen and (min-width: 1000px)

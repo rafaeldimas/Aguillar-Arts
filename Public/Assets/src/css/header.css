@@ -1,7 +1,7 @@
 .active-menu {
     display: none;
     font-size: 35px;
-    color: #606;
+    color: #f5f5f5 !important;
     margin-left: 5%;
     padding: 0
 }
@@ -36,6 +36,10 @@ header .menu-toggle ul
     margin-left: 3%;
     margin-top: 1%;
 }
+.disable-menu:focus,
+.disable-menu:visited {
+    color: #a5a5a5 !important;
+}
 
 header .menu-toggle ul li a
 {
@@ -51,7 +55,7 @@ header .menu-toggle ul li a
     text-decoration: none;
     text-transform: uppercase;
 
-    color: #62a;
+    color: #d5d5d5;
 }
 
 header .menu-toggle ul li a:hover
@@ -59,16 +63,16 @@ header .menu-toggle ul li a:hover
     text-decoration: none;
 
     color: #f5f5f5;
-    background-color: rgba(155, 89, 182, .8);
+    background-color: rgba(230,230,230, .8);
 }
 
 header .menu-toggle ul li a:not(.not)
 {
     padding: 15px;
 }
-.not:hover
-{
-    background-color: #f5f5f5;
+
+.not:hover {
+    background-color: #f5f5f5 !important;
 }
 header .menu-toggle ul li a img
 {
@@ -86,7 +90,7 @@ header .menu-desktop
     margin: 0 !important;
     padding: 0 !important;
 
-    background-color: rgba(252, 250, 251, .8);
+    background-color: #f5f5f5;
 }
 header .menu-desktop ul
 {
@@ -130,10 +134,7 @@ header .menu-desktop ul li a:not(.not)
 {
     padding: 15px;
 }
-.not:hover
-{
-    background-color: #f5f5f5;
-}
+
 header .menu-desktop ul li a img
 {
     height: 60px;
@@ -156,14 +157,24 @@ header .menu-desktop ul li a img
 }
 
 @media screen and (max-width: 700px) {
+    header {
+        background-color: #505;
+    }
+
     header .menu-desktop {
         display: none;
     }
     #owl-demo{
-        top: 0;
-        margin-bottom: 0; 
+        display: none !important;
     }
     .active-menu {
         display: inline-block;
+    }
+    .not:hover {
+        background-color: rgba(1,1,1, .8) !important;
+    }
+    header .menu-toggle ul li a:hover
+    {
+        color: #62a;
     }
 }
