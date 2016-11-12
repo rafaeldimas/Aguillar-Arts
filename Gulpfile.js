@@ -18,9 +18,6 @@ const gulp = require('gulp');
 // Transforma o javascript em formato ilegível para humanos
 const uglify = require("gulp-uglify");
 
-// Agrupa todos os arquivos em um
-const concat = require("gulp-concat");
-
 // Verifica alterações em tempo real, caso haja, compacta novamente todo o projeto
 const watch = require('gulp-watch');
 

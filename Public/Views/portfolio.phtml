@@ -1,1 +1,50 @@
-Desenvolvido por {{nome}}
+{% include 'header.phtml'%}
+
+<section class="row">
+    <div class="col-xs-12 col-md-12">
+        <div>
+
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#sites" aria-controls="sites" role="tab" data-toggle="tab">Web Sites</a></li>
+                <li role="presentation"><a href="#cartoes" aria-controls="cartoes" role="tab" data-toggle="tab">Cartões</a></li>
+                <li role="presentation"><a href="#midiasocial" aria-controls="midiasocial" role="tab" data-toggle="tab">Midia Social</a></li>
+                <li role="presentation"><a href="#marketingtradicional" aria-controls="marketingtradicional" role="tab" data-toggle="tab">Marketing Tradicional</a></li>
+            </ul>
+
+            <!-- Tab panes -->
+            <article class="tab-content">
+                <section role="tabpanel" class="tab-pane active" id="sites">
+                    <div class="portfolio">
+                        {% for cliente in portfolio %}    
+                            <div class="item-portfolio">
+                                <div class="img-portfolio">
+                                    <a href="{{ cliente.url }}" class="btn btn-danger">View</a>
+                                    <img src="{{ cliente.url_imagem }}">
+                                </div>
+                                <div class="subtitle-portfolio">
+                                    <a href="{{ cliente.url }}">
+                                        <h3>{{ cliente.nome }}</h3>
+                                    </a>
+                                    <a href="{{ cliente.url }}">{{ cliente.url }}</a>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </section>
+                <section role="tabpanel" class="tab-pane" id="cartoes">
+
+                </section>
+                <section role="tabpanel" class="tab-pane" id="midiasocial">
+
+                </section>
+                <section role="tabpanel" class="tab-pane" id="marketingtradicional">
+
+                </section>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+{% include 'footer.phtml'%}

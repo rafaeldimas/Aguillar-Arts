@@ -6,6 +6,9 @@ define('DS', DIRECTORY_SEPARATOR);
 
 define('BASE_DIR', __DIR__.DS);
 
+$dotenv = new Dotenv\Dotenv(BASE_DIR);
+$dotenv->load();
+
 $app = new \Slim\App([
     'settings' => [
         'displayErrorDetails' => true
