@@ -24,4 +24,14 @@
         return new App\Controllers\PortfolioController($container);
     };
 
+    $container['ContatoController'] = function($container){
+        return new App\Controllers\ContatoController($container);
+    };
+
+    $container['EnviarController'] = function($container){
+        return new App\Controllers\EnviarController($container);
+    };
+
     require_once 'Routes.php';
+
+    require_once 'message.php';

@@ -27,27 +27,35 @@ const cssmin = require("gulp-cssmin");
 // Remove comentários CSS
 const stripCssComments = require('gulp-strip-css-comments');
 
+const changed = require('gulp-changed');
+
 const image = require('gulp-image');
 
 // Processo que removerá comentários CSS e minificará.
 gulp.task('minify-css', function(){
 	return gulp.src(filesCSS)
+	.pipe(changed('./Public/Assets/dist/css/'))
 	.pipe(stripCssComments({all: true}))
 	.pipe(cssmin())
+	.on('error', function (err){})
 	.pipe(gulp.dest('./Public/Assets/dist/css/'));
 });
 
 // Tarefa de minificação do Javascript
 gulp.task('minify-js', function () {
   return gulp.src(filesJS)                        // Arquivos que serão carregados, veja variável 'js' no início
+  .pipe(changed('./Public/Assets/dist/js/'))
   .pipe(uglify())                     // Transforma para formato ilegível
+  .on('error', function (err){})
   .pipe(gulp.dest('./Public/Assets/dist/js/'));          // pasta de destino do arquivo(s)
 });
 
 // Tarefa de minificação das Imagens
 gulp.task('minify-image', function () {
 	gulp.src(filesIMG)
+	.pipe(changed('./Public/Assets/dist/css/img/'))
 	.pipe(image())
+	.on('error', function (err){})
 	.pipe(gulp.dest('./Public/Assets/dist/css/img/'));
 });
 

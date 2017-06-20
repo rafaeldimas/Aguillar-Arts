@@ -1,0 +1,1020 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"endf",
+				"endif\t(index.php)"
+			],
+			[
+				"loop",
+				"pg_lo_open"
+			],
+			[
+				"the",
+				"the_content\tWP Filter Name"
+			],
+			[
+				"get_",
+				"get_bloginfo\tWP Function"
+			],
+			[
+				"title",
+				"get_the_title\tWP Function"
+			],
+			[
+				"l",
+				"lang\tAttr"
+			],
+			[
+				"la",
+				"language\t(Datapicker.js)"
+			],
+			[
+				"em",
+				"empty"
+			],
+			[
+				"_",
+				"_SERVER"
+			],
+			[
+				"exist",
+				"file_exists"
+			],
+			[
+				"fom",
+				"format"
+			],
+			[
+				"ex",
+				"ext"
+			],
+			[
+				"form",
+				"format\t(RouterViewsController.php)"
+			],
+			[
+				"get",
+				"getenv"
+			],
+			[
+				"expl",
+				"explode"
+			],
+			[
+				"is",
+				"is_null"
+			],
+			[
+				"user",
+				"user"
+			],
+			[
+				"Image",
+				"Imagem\t(ValidateParameters.php)"
+			],
+			[
+				"thi",
+				"this"
+			],
+			[
+				"pa",
+				"parans"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"met",
+				"method\t(AlterUser.phtml)"
+			],
+			[
+				"subtr",
+				"substr"
+			],
+			[
+				"fun",
+				"fun\tfunction …"
+			],
+			[
+				"S",
+				"String"
+			],
+			[
+				"V",
+				"ValidateParameters\t(UserController.php)"
+			],
+			[
+				"Add",
+				"AddUser"
+			],
+			[
+				"arr",
+				"arrView"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"va",
+				"var_dump\t(UserController.php)"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"c",
+				"class"
+			],
+			[
+				"data",
+				"data-class\t(AlterUser.phtml)"
+			],
+			[
+				"sp",
+				"span"
+			],
+			[
+				"fi",
+				"first\t(DashboardController.php)"
+			],
+			[
+				"use",
+				"users"
+			],
+			[
+				"fo",
+				"for\tfor …"
+			],
+			[
+				"f",
+				"fillable"
+			],
+			[
+				"array_m",
+				"array_map"
+			],
+			[
+				"arra",
+				"array_map\t(RouterViewsController.php)"
+			],
+			[
+				"array_f",
+				"array_flip"
+			],
+			[
+				"key",
+				"key2"
+			],
+			[
+				"ke",
+				"key2"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"array_d",
+				"array_diff_ukey"
+			],
+			[
+				"val",
+				"value1"
+			],
+			[
+				"q",
+				"query"
+			],
+			[
+				"jo",
+				"json_encode\t(LoginController.php)"
+			],
+			[
+				"Roles",
+				"Roles_id\t(Role.php)"
+			],
+			[
+				"Role",
+				"Roles_id\t(Role.php)"
+			],
+			[
+				"role",
+				"roles\t(User.php)"
+			],
+			[
+				"User",
+				"Users\t(User.php)"
+			],
+			[
+				"Model",
+				"Models"
+			],
+			[
+				"rol",
+				"roles\t(User.php)"
+			],
+			[
+				"me",
+				"message"
+			],
+			[
+				"Valid",
+				"ValidateParameters"
+			],
+			[
+				"Va",
+				"Validar\t(ValidateParameters.php)"
+			],
+			[
+				"U",
+				"Users\t(UserModel.php)"
+			],
+			[
+				"n",
+				"name\tAttr"
+			],
+			[
+				"D",
+				"Dashboard.phtml"
+			],
+			[
+				"C",
+				"ContainerConfig.php"
+			],
+			[
+				"Home",
+				"HomeController"
+			],
+			[
+				"E",
+				"Eventos\t(composer.json)"
+			],
+			[
+				"im",
+				"imgLocal"
+			],
+			[
+				"img",
+				"image"
+			],
+			[
+				"ch",
+				"chmod"
+			],
+			[
+				"te",
+				"text-shadow"
+			],
+			[
+				"w",
+				"break-word"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"s",
+				"style\tAttr"
+			],
+			[
+				"texa",
+				"text-align"
+			],
+			[
+				"spa",
+				"cellspacing\tAttr"
+			],
+			[
+				"aguillar",
+				"aguillararts"
+			],
+			[
+				"p",
+				"Person"
+			],
+			[
+				"v",
+				"videos"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"prop",
+				"propaganda"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"servi",
+				"servicos"
+			],
+			[
+				"M",
+				"Message\t(EnviarController.php)"
+			],
+			[
+				"o",
+				"outline"
+			],
+			[
+				"j",
+				"json_encode"
+			],
+			[
+				"m",
+				"message"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"env",
+				"enviarEmail"
+			],
+			[
+				"pre",
+				"prepareEmail"
+			],
+			[
+				"su",
+				"subject"
+			],
+			[
+				"insert",
+				"insertContato"
+			],
+			[
+				"t",
+				"this"
+			],
+			[
+				"Enviar",
+				"EnviarController\t(EnviarController.php)"
+			],
+			[
+				"sucess",
+				"success\t(ajax.js)"
+			],
+			[
+				"Me",
+				"Message"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"se",
+				"serialize\t.serialize()"
+			],
+			[
+				"email",
+				"email-formulario\t(contato.phtml)"
+			],
+			[
+				"sub",
+				"submit\t.submit()"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"Ho",
+				"HomeModel"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"Con",
+				"ConDB"
+			],
+			[
+				"Portf",
+				"PortfolioModel"
+			],
+			[
+				"Po",
+				"PortfolioModel\t(PortfolioModel.php)"
+			],
+			[
+				"is_n",
+				"is_null"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"dec",
+				"text-decoration"
+			],
+			[
+				"fle",
+				"flex-direction"
+			],
+			[
+				"fl",
+				"flex-start"
+			],
+			[
+				"co",
+				"col-md-12"
+			],
+			[
+				"al",
+				"align-items"
+			],
+			[
+				"modal",
+				"modalContato\t(footer.phtml)"
+			],
+			[
+				"A",
+				"Arts"
+			],
+			[
+				"solu",
+				"solução\t(home.phtml)"
+			],
+			[
+				"Agui",
+				"AguillarArts\t(footer.phtml)"
+			],
+			[
+				"sobre",
+				"sobre.jpg\t(home.css)"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"ser",
+				"servicos"
+			],
+			[
+				"i",
+				"initial"
+			],
+			[
+				"ra",
+				"rgba()"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"de",
+				"desactive-menu\t(header.phtml)"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"at",
+				"attr\t.attr() - single"
+			],
+			[
+				"ad",
+				"add\t.add()"
+			],
+			[
+				"menu",
+				"menu-toggle"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "Snippet: wp",
+		"selected_items":
+		[
+			[
+				"Snippet: wp",
+				"Snippet: WP Template: Register Post Type"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"PHP: Generate",
+				"PHP: Generate Getters and Setters"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: nav",
+				"Snippet: bs3-navbar-link"
+			],
+			[
+				"Snippet: in",
+				"Snippet: include"
+			],
+			[
+				"Snippet: ",
+				"Snippet: {% ... %} (block)"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"Snippet: i",
+				"Snippet: if"
+			],
+			[
+				"p",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"cdn",
+				"Cdnjs: Search"
+			],
+			[
+				"SassBeautify",
+				"SassBeautify"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"PHP Coding Standards Fixer: Fix this file (PHP-CS-Fixer)"
+			],
+			[
+				"css",
+				"Run CSScomb"
+			],
+			[
+				"PHP",
+				"PHPCompanion:Insert Constructor Property"
+			],
+			[
+				"find",
+				"PHPCompanion:Find Use"
+			]
+		],
+		"width": 557.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"gulp",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/html/aguillarart/.env",
+		"/var/www/html/aguillarart/App/Controllers/Admin/LoginController/LoginController.php",
+		"/var/www/html/aguillarart/App/Controllers/Admin/PostController/PostController.php",
+		"/var/www/html/aguillarart/App/Middlewares/LoginMiddleware/LoginMiddleware.php",
+		"/var/www/html/aguillarart/Core/Helpers/UploadImg/UploadImg.php",
+		"/var/www/html/aguillarart/Public/css/admin/alladmin.css",
+		"/var/www/html/aguillarart/Public/css/site/allsite.css",
+		"/var/www/html/aguillarart/Public/js/admin/mainadmin.js",
+		"/var/www/html/aguillarart/Public/js/site/mainsite.js",
+		"/var/www/html/aguillarart/Public/views/Admin/Modulos/Dashboard/GetImgServer/GetImgServer.phtml",
+		"/var/www/html/aguillarart/Public/views/Admin/Modulos/Header/Header.phtml",
+		"/var/www/html/aguillarart/Public/views/Admin/Modulos/LoginForm/LoginForm.phtml",
+		"/var/www/html/aguillarart/Public/views/Site/Page/About/About.phtml",
+		"/var/www/html/aguillarart/Public/views/Site/Page/Admin/Admin.phtml",
+		"/var/www/html/aguillarart/Public/views/Site/Page/Furniture/Offline/Offline.phtml",
+		"/var/www/html/aguillarart/db/Options.sql",
+		"/var/www/html/aguillarart/db/Users.sql",
+		"/var/www/html/aguillarart/Flamework/Admin/js/Ajax/ajax.js",
+		"/var/www/html/aguillarart/Flamework/Admin/js/Ckeditor/Ckeditor.js",
+		"/var/www/html/aguillarart/Flamework/Admin/js/DataTable/DataTable.js",
+		"/var/www/html/aguillarart/Flamework/Admin/js/LocalStorage/Galery/Finish.js",
+		"/var/www/html/aguillarart/Flamework/Admin/js/LocalStorage/Galery/Init.js",
+		"/var/www/html/aguillarart/Flamework/Admin/js/LocalStorage/Galery/uploadimg.js",
+		"/var/www/html/aguillarart/Flamework/Admin/js/LocalStorage/Menus/Finish.js",
+		"/var/www/html/aguillarart/Flamework/Admin/js/LocalStorage/Menus/Init.js",
+		"/var/www/html/aguillarart/Flamework/Admin/js/LocalStorage/Slide/Finish.js",
+		"/var/www/html/aguillarart/Flamework/Admin/js/LocalStorage/Slide/Init.js",
+		"/var/www/html/aguillarart/Flamework/Admin/js/LocalStorage/Slide/uploadimg.js",
+		"/var/www/html/aguillarart/Flamework/Admin/js/Router/router.js",
+		"/var/www/html/aguillarart/Flamework/Admin/libs/plugins/input-mask/jquery.inputmask.phone.extensions.js",
+		"/var/www/html/aguillarart/Flamework/Admin/scss/Admin/LoginForm/_LoginForm.scss",
+		"/var/www/html/aguillarart/Flamework/Site/js/Ajax/ajax.js",
+		"/var/www/html/aguillarart/Flamework/Site/libs/plugins/input-mask/jquery.inputmask.phone.extensions.js",
+		"/var/www/html/aguillarart/Flamework/Site/scss/Call/_Call.scss",
+		"/var/www/html/aguillarart/Flamework/Site/scss/Header/Menu/_Menu.scss",
+		"/var/www/html/aguillarart/Flamework/Site/scss/Main/_Main.scss",
+		"/var/www/html/aguillarart/Flamework/Site/scss/Variables/_Variables.scss",
+		"/var/www/html/aguillarart/Flamework/Site/scss/main.scss",
+		"/var/www/html/aguillarart/Flamework/Admin/scss/Admin/Dashboard/_Dashboard.scss",
+		"/var/www/html/aguillarart/Flamework/Admin/scss/main.scss",
+		"/var/www/html/aguillarart/Public/views/Admin/Modulos/Dashboard/Dashboard.phtml",
+		"/var/www/html/aguillarart/Public/views/Admin/Modulos/Menu/Menu.phtml",
+		"/var/www/html/aguillarart/Config/ConstantConfig.php",
+		"/var/www/html/aguillarart/Config/RouterConfig.php",
+		"/var/www/html/aguillarart/Config/ControllerConfig.php",
+		"/var/www/html/aguillarart/Config/MessageConfig.php",
+		"/var/www/html/aguillarart/aguillarart.sublime-workspace",
+		"/var/www/html/aguillarart-wordpress/wp-content/themes/aguillararts/style.css",
+		"/var/www/html/aguillarart-wordpress/wp-content/themes/aguillararts/header.php",
+		"/var/www/html/aguillarart-wordpress/wp-content/themes/aguillararts/function.php",
+		"/var/www/html/aguillarart-wordpress/wp-content/themes/aguillararts/footer.php",
+		"/var/www/html/aguillarart-wordpress/wp-content/themes/aguillararts/index.php",
+		"/var/www/html/OrnareEventos/Gulpfile.js",
+		"/var/www/html/OrnareEventos/Public/views/Admin/Modulos/Dashboard/Category/SubCategory/SubCategory.phtml",
+		"/var/www/html/OrnareEventos/Flamework/js/DataTable/DataTable.js",
+		"/var/www/html/OrnareEventos/Public/js/DataTable/Portuguese-Brasil.lang",
+		"/var/www/html/OrnareEventos/Flamework/libs/plugins/datatables/extensions/AutoFill/images/filler.png",
+		"/var/www/html/OrnareEventos/.env",
+		"/var/www/html/LaravelArgular/tasks/angular.task.js",
+		"/var/www/html/LaravelArgular/angular/index.modules.js",
+		"/var/www/html/LaravelArgular/angular/index.run.js",
+		"/var/www/html/LaravelArgular/angular/index.main.js",
+		"/var/www/html/OrnareEventos/App/Controllers/Admin/BudgetController/BudgetController.php",
+		"/var/www/html/OrnareEventos/Public/views/Admin/Modulos/Dashboard/Product/AlterProduct/AlterProduct.phtml",
+		"/var/www/html/OrnareEventos/Core/Helpers/UploadImg/UploadImg.php",
+		"/var/www/html/OrnareEventos/App/Controllers/Admin/ProductController/ProductController.php",
+		"/var/www/html/OrnareEventos/Config/RouterConfig.php",
+		"/var/www/html/OrnareEventos/App/Controllers/Admin/RouterViewsController/RouterViewsController.php",
+		"/var/www/html/OrnareEventos/App/Controllers/Admin/UserController/UserController.php",
+		"/var/www/html/OrnareEventos/App/Middlewares/LoginMiddleware/LoginMiddleware.php",
+		"/var/www/html/OrnareEventos/Core/Helpers/ValidateParameters/ValidateParameters.php",
+		"/var/www/html/OrnareEventos/Public/views/Admin/Modulos/NotFound/NotFound.phtml",
+		"/var/www/html/OrnareEventos/Flamework/scss/Admin/Dashboard/AddUser/_AddUser.scss",
+		"/var/www/html/OrnareEventos/Public/views/Admin/Modulos/AddUser/AddUser.phtml",
+		"/var/www/html/OrnareEventos/Flamework/js/Ajax/ajax.js",
+		"/var/www/html/OrnareEventos/Public/views/Admin/Modulos/Menu/Menu.phtml",
+		"/var/www/html/OrnareEventos/App/Controllers/Admin/LoginController/LoginController.php",
+		"/var/www/html/OrnareEventos/Flamework/scss/Admin/Dashboard/AlterUser/_AlterUser.scss",
+		"/var/www/html/OrnareEventos/Public/views/Admin/Modulos/AlterUser/AlterUser.phtml",
+		"/var/www/html/OrnareEventos/Flamework/scss/Admin/Dashboard/_Dashboard.scss",
+		"/var/www/html/OrnareEventos/Flamework/scss/Admin/Dashboard/User/_User.scss",
+		"/var/www/html/OrnareEventos/Public/views/Admin/Modulos/User/User.phtml",
+		"/var/www/html/OrnareEventos/App/Controllers/Admin/DashboardController/DashboardController.php",
+		"/var/www/html/OrnareEventos/Public/views/Admin/Modulos/LoginForm/LoginForm.phtml",
+		"/var/www/html/OrnareEventos/Config/ControllerConfig.php",
+		"/var/www/html/OrnareEventos/Flamework/js/Router/router.js",
+		"/var/www/html/OrnareEventos/App/Services/FilterService/FilterService.php",
+		"/var/www/html/OrnareEventos/App/Models/User/User.php",
+		"/var/www/html/OrnareEventos/App/Models/Role/Role.php",
+		"/var/www/html/OrnareEventos/Flamework/js/Ajax/loginajax.js",
+		"/var/www/html/OrnareEventos/Public/views/Admin/Modulos/Header/Header.phtml",
+		"/var/www/html/OrnareEventos/Config/MessageConfig.php",
+		"/var/www/html/OrnareEventos/Config/Config.php",
+		"/var/www/html/OrnareEventos/Config/DatabaseConfig.php",
+		"/var/www/html/OrnareEventos/App/Models/Model.php",
+		"/var/www/html/OrnareEventos/Config/ContainerConfig.php",
+		"/var/www/html/OrnareEventos/App/Controllers/Site/TesteController/TesteController.php",
+		"/var/www/html/OrnareEventos/App/Models/User/UserModel.php",
+		"/var/www/html/OrnareEventos/App/Controllers/Site/HomeController/HomeController.php",
+		"/var/www/html/OrnareEventos/Public/views/Site/Modulos/Menu/Menu.phtml",
+		"/var/www/html/OrnareEventos/Public/views/Site/Modulos/Header/Header.phtml",
+		"/var/www/html/OrnareEventos/Public/views/Site/BaseModeloSite.phtml",
+		"/var/www/html/OrnareEventos/Public/views/Site/Page/Home/Home.phtml",
+		"/var/www/html/OrnareEventos/Public/views/Site/Modules/Header/Header.phtml",
+		"/var/www/html/OrnareEventos/Public/views/Site/Modules/Slider/Slider.phtml",
+		"/var/www/html/OrnareEventos/Public/views/Site/Modules/Footer/Footer.phtml",
+		"/var/www/html/OrnareEventos/Public/views/Admin/BaseModeloAdmin.phtml",
+		"/var/www/html/OrnareEventos/Public/views/Admin/Modulos/LoginHeader/LoginHeader.phtml",
+		"/var/www/html/OrnareEventos/Public/views/Admin/Modulos/Footer/Footer.phtml",
+		"/var/www/html/OrnareEventos/Flamework/scss/Admin/Variables/_Variables.scss",
+		"/var/www/html/OrnareEventos/Flamework/scss/Admin/Header/_Header.scss",
+		"/var/www/html/OrnareEventos/Flamework/scss/main.scss",
+		"/var/www/html/OrnareEventos/Flamework/scss/Admin/LoginFooter/_LoginFooter.scss",
+		"/var/www/html/OrnareEventos/Flamework/scss/index.scss",
+		"/var/www/html/OrnareEventos/App/Controllers/Admin/HomeController/HomeController.php",
+		"/var/www/html/OrnareEventos/Public/views/index.phtml",
+		"/var/www/html/OrnareEventos/Public/views/Admin/Page/Dashboard/Dashboard.phtml",
+		"/var/www/html/OrnareEventos/Public/views/Admin/Footer.phtml",
+		"/var/www/html/OrnareEventos/Public/views/Admin/Header.phtml",
+		"/var/www/html/OrnareEventos/Public/views/Admin/Dashboard/base.phtml",
+		"/var/www/html/OrnareEventos/Public/views/Admin/Dashboard/Dashboard.phtml",
+		"/var/www/html/OrnareEventos/Config/ViewConfig.php",
+		"/var/www/html/OrnareEventos/index.php",
+		"/var/www/html/OrnareEventos/.gitignore",
+		"/var/www/html/OrnareEventos/false/a7/a74531057d54f5c7bdfc543d00a39338b14733b617fa24ad6690a0360d58c128.php",
+		"/var/www/html/OrnareEventos/App/Controllers/Admin/HomeController.php",
+		"/var/www/html/Ornare Eventos/Public/views/home.phtml",
+		"/var/www/html/Ornare Eventos/Config/AppConfig.php"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"/var/www/html/aguillarart",
+			"/var/www/html/aguillarart/Flamework",
+			"/var/www/html/tableless/wp-content/themes/tableless"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"/OrnareEventos/",
+			".",
+			"/OrnareEventos/",
+			"Ornare",
+			"OrnareEventos",
+			"pagina",
+			"post_type",
+			"@",
+			"import",
+			"glyphicons",
+			"glyphicons-halflings-regular.woff",
+			"head",
+			"foto",
+			");\n",
+			"&&",
+			",",
+			"->->$",
+			"user",
+			"$parans",
+			"isset",
+			"ValidateParameters",
+			" = ",
+			"]))",
+			"$_POST",
+			");\n",
+			"['']))",
+			"name",
+			"\">\n",
+			"AddUser",
+			"AlterUser",
+			"AddUser",
+			"Alter",
+			"AlterUser",
+			" {% if dados.Roles_id ==",
+			"{{",
+			"alteruser",
+			"Alterar",
+			"!",
+			"());\n",
+			"_",
+			"-",
+			"data-router",
+			"console.log",
+			"required",
+			"%}",
+			" ",
+			"\" ",
+			"\"></",
+			"label",
+			" ? 0 : $messages['errors'] + 1;",
+			"error",
+			"console",
+			"b",
+			"span",
+			"small",
+			"');\n",
+			"RouterViews",
+			"fillable",
+			"query",
+			"result",
+			"dados",
+			"date",
+			"updated_at",
+			"new",
+			"result",
+			"dados",
+			"key",
+			"result",
+			"Result",
+			"result",
+			"        return $this;",
+			"return",
+			"User",
+			"user",
+			"User",
+			"Role",
+			"Users",
+			"User",
+			"Alexander Pierce",
+			"nav",
+			"user",
+			";",
+			"$",
+			"bool",
+			"_POST",
+			"float",
+			"Email",
+			"email",
+			"Home",
+			"this",
+			"BASE_DIR_ASSETS",
+			"Slider",
+			"Header",
+			"Login",
+			"LoginHeader",
+			"Admin",
+			"LoginController",
+			"Admin",
+			"Login",
+			"\n    $container['LoginController'] = function($container){\n        return new App\\Controllers\\Admin\\LoginController\\LoginController($container);\n    };\n",
+			"./",
+			".",
+			"Home",
+			"HomeController",
+			"changed",
+			"HomeController",
+			";",
+			";\n",
+			"a>",
+			"<a",
+			"a",
+			"href",
+			"<a href=\"#contact\" class=\"btn btn-medium btn-blue\">ENTRE EM CONTATO CONOSCO</a>",
+			"<!-- Button -->\n                                        <a href=\"#contact\" class=\"btn btn-medium btn-blue\">ENTRE EM CONTATO CONOSCO</a>",
+			"\n                                        <!-- Button -->\n                                        <a href=\"#contact\" class=\"btn btn-medium btn-blue\">ENTRE EM CONTATO CONOSCO</a>",
+			"contato",
+			"'",
+			"table style",
+			"box",
+			".tb-box",
+			".tb-related-posts .tb-related-group .tb-box",
+			"http://www.aguillararts.com.br/",
+			"Aguillar Arts",
+			"Aguillar Arts - Criação de sites, redes sociais, marketing tradicional e oferecendo o melhor preço de Ribeirão Preto",
+			"A Aguillar Arts trabalha com criação de sites, redes sociais, marketing tradicional e oferecendo o melhor preço de Ribeirão Preto",
+			"em Ribeirão Preto",
+			"oferecendo",
+			"Grupo Audax Ribeirão Preto"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/aguillarart/",
+			"5",
+			"teste"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 120.0
+	},
+	"pinned_build_system": "",
+	"project": "aguillarart.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 351.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

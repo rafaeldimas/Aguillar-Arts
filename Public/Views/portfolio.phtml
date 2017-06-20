@@ -16,30 +16,79 @@
             <article class="tab-content">
                 <section role="tabpanel" class="tab-pane active" id="sites">
                     <div class="portfolio">
-                        {% for cliente in portfolio %}    
-                            <div class="item-portfolio">
-                                <div class="img-portfolio">
-                                    <a href="{{ cliente.url }}" class="btn btn-danger">View</a>
-                                    <img src="{{ cliente.url_imagem }}">
+                        {% for cliente in portfolio %}
+                            {% if cliente.categoria == 1 %}
+                                <div class="item-portfolio">
+                                    <div class="img-portfolio">
+                                        <a href="{{ cliente.url }}" class="btn btn-danger">View</a>
+                                        <img src="{{ cliente.url_imagem }}">
+                                    </div>
+                                    <div class="subtitle-portfolio">
+                                        <a href="{{ cliente.url }}">
+                                            <h3>{{ cliente.nome }}</h3>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="subtitle-portfolio">
-                                    <a href="{{ cliente.url }}">
-                                        <h3>{{ cliente.nome }}</h3>
-                                    </a>
-                                    <a href="{{ cliente.url }}">{{ cliente.url }}</a>
-                                </div>
-                            </div>
+                            {% endif %}
                         {% endfor %}
                     </div>
                 </section>
                 <section role="tabpanel" class="tab-pane" id="cartoes">
-
+                    <div class="portfolio">
+                        {% for cliente in portfolio %}
+                            {% if cliente.categoria == 2 %}
+                                <div class="item-portfolio">
+                                    <div class="img-portfolio">
+                                        <a href="{{ cliente.url }}" class="btn btn-danger">View</a>
+                                        <img src="{{ cliente.url_imagem }}">
+                                    </div>
+                                    <div class="subtitle-portfolio">
+                                        <a href="{{ cliente.url }}">
+                                            <h3>{{ cliente.nome }}</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
                 </section>
                 <section role="tabpanel" class="tab-pane" id="midiasocial">
-
+                    <div class="portfolio">
+                        {% for cliente in portfolio %}
+                            {% if cliente.categoria == 3 %}
+                                <div class="item-portfolio">
+                                    <div class="img-portfolio">
+                                        <a href="{{ cliente.url }}" class="btn btn-danger">View</a>
+                                        <img src="{{ cliente.url_imagem }}">
+                                    </div>
+                                    <div class="subtitle-portfolio">
+                                        <a href="{{ cliente.url }}">
+                                            <h3>{{ cliente.nome }}</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
                 </section>
                 <section role="tabpanel" class="tab-pane" id="marketingtradicional">
-
+                    <div class="portfolio">
+                        {% for cliente in portfolio %}
+                            {% if cliente.categoria == 4 %}
+                                <div class="item-portfolio">
+                                    <div class="img-portfolio">
+                                        <a href="{{ cliente.url }}" class="btn btn-danger">View</a>
+                                        <img src="{{ cliente.url_imagem }}">
+                                    </div>
+                                    <div class="subtitle-portfolio">
+                                        <a href="{{ cliente.url }}">
+                                            <h3>{{ cliente.nome }}</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
                 </section>
             </article>
 

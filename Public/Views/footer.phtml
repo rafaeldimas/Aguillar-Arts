@@ -46,7 +46,53 @@
 		</section>
     </section>
     {% for js in assets.js %}
-<script type="text/javascript" src="./Public/Assets/dist/js/{{js}}"></script>
+<script type="text/javascript" src="./Public/Assets/dist/js/{{js}}" defer></script>
     {% endfor %}
+
+	<script type="application/ld+json" async>
+	{
+	  "@context": "http://schema.org",
+	  "@type": "Organization",
+	  "address": {
+	    "@type": "PostalAddress",
+	    "addressLocality": "São Paulo, Brasil",
+	    "postalCode": "14030-440",
+	    "streetAddress": "Rua Dr. João Guião, 266 - Vila Virginia, Ribeirão Preto"
+	  },
+	  "email": "contato@aguillararts.com.br",
+	  "founder": [
+	    {
+	      "@type": "Person",
+	      "name": "Rafael Dimas",
+	      "jobTitle": "Desenvolvedor Web",
+	      "sameAs": "https://www.facebook.com/rafaelhodimas"
+	    },
+	    {
+	      "@type": "Person",
+	      "name": "Gabriella Aguillar",
+	      "jobTitle": "Publicitária",
+	      "sameAs": "https://www.facebook.com/gabriella.aguillar"
+	    }
+	  ],
+	  "name": "Aguillar Arts",
+	  "telephone": "(16) 98824-3540",
+	  "url": "http://www.aguillararts.com.br/",
+	  "logo": "http://www.aguillararts.com.br/Public/Assets/dist/css/img/logo/logo-menu.png",
+	  "sameAs": [
+	    "https://www.facebook.com/AguillarArts/",
+	    "https://plus.google.com/100860257454348727280?hl=pt-PT"
+	  ]
+	}
+	</script>
+	<script async>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-88061132-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
 </body>
 </html>

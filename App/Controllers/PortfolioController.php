@@ -11,31 +11,11 @@
         {
             $model = new PortfolioModel;
             $portfolio = $model->getPortfolio();
-
+            $assets = $model->getAssets();
 
             return $this->view->render($response, 'portfolio.phtml', [
-                    'assets' => [
-                        'css' => [
-                            'inc/bootstrap.min.css',
-                            'inc/bootstrap-theme.min.css',
-                            'inc/owl.carousel.css',
-                            'inc/owl.theme.css',
-                            'inc/owl.transitions.css',
-                            'reset.css',
-                            'header.css',
-                            'portfolio.css',
-                            'footer.css'
-                        ],
-                        'js' => [
-                            'jquery.min.js',
-                            'bootstrap.min.js',
-                            'owl.carousel.min.js',
-                            'owl.js',
-                            'footer.js',
-                            'header.js'
-                        ]
-                    ],
-                    'title' => 'Portfólio',
+                    'assets' => $assets,
+                    'title' => 'Agencia Publicitaria - Portfólio',
                     'description' => 'Aguillar Arts, a melhor solução para divulgação de Ribeirão Preto, com os melhores preços aliado com a melhor qualidade.',
                     'portfolio' => $portfolio
                 ]);

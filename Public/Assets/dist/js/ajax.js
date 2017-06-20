@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#email-formulario").submit(function(a){a.preventDefault();var e=$("#email-formulario").serialize();$.ajax({url:"/enviando",type:"POST",dataType:"json",data:e,success:function(a){$("#mensagem").css("display","block").removeClass().addClass(a.tipo).html("").html("<p>"+a.mensagem+"</p>")}})})});

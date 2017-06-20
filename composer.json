@@ -2,6 +2,7 @@
     "require": {
         "slim/slim": "^3.5",
         "slim/twig-view": "^2.1",
+        "sendgrid/sendgrid": "~5.1",
         "vlucas/phpdotenv": "^2.4"
     },
     "autoload": {
